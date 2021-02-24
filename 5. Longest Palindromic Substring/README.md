@@ -32,3 +32,5 @@ Solution3 也是参考推荐的方法，动态规划
 
 后两个方法的实际测试时间更长
 
+
+类似问题：https://www.geeksforgeeks.org/longest-common-substring-dp-29/
