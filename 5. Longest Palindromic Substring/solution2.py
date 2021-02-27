@@ -19,3 +19,12 @@ class Solution:
             if len(tmp) > len(result):
                 result = tmp
         return result
+        
+if __name__== '__main__':
+    solution = Solution()
+
+    result = solution.longestPalindrome('ababababababa')
+    print(result == 'ababababababa')
+
+    result = solution.longestPalindrome('bananas')
+    print(result == 'anana')
