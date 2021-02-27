@@ -38,11 +38,3 @@ class Solution:
                 if zigzag[i][j]:
                     result += zigzag[i][j]
         return result
-
-if __name__== '__main__':
-    solution = Solution()
-
-    s = 'PAYPALISHIRING'
-    numRows = 3
-    result = solution.convert(s, numRows)
-    print(result == 'PAHNAPLSIIGYIR')

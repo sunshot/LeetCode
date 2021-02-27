@@ -18,10 +18,4 @@ class Solution {
         }
         return result == x;
     }
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        boolean result = solution.isPalindrome(121);
-        System.out.println(result == true);
-    }
 }

@@ -15,12 +15,3 @@ class Solution:
                 step = -1
             index += step
         return ''.join(L)
-
-if __name__== '__main__':
-    solution = Solution()
-
-    s = 'PAYPALISHIRING'
-    numRows = 3
-    result = solution.convert(s, numRows)
-    print(result == 'PAHNAPLSIIGYIR')
-    
