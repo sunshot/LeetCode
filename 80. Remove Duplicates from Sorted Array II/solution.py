@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums:
@@ -15,3 +17,11 @@ class Solution:
         while unique+1 < len(nums):
             nums.pop()
         return len(nums)
+
+if __name__== '__main__':
+    solution = Solution()
+
+    nums = [0,0,1,1,1,1,2,3,3]
+    result = solution.removeDuplicates(nums)
+    print(result == 7)
+    print(nums)
