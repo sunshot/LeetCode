@@ -6,7 +6,7 @@ Given n non-negative integers a1, a2, ..., an , where each represents a point at
 
 最直接的方法是 O(n^2) 对每一个List中的元素，计算它与其他元素可以装的水，进而判断出最大值，但 List 上了规模时间复杂度太高
 
-参考解答：
+讨论区参考解答：
 
 https://leetcode.com/problems/container-with-most-water/discuss/6100/Simple-and-clear-proofexplanation
 
