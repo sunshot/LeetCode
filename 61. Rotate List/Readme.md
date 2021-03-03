@@ -45,3 +45,8 @@ Given the head of a linked list, rotate the list to the right by k places.
 ```
 
 最后 fast 已经指向队尾， slow 下一个节点是新的队首，很好处理了
+
+
+讨论区解答：
+
+https://leetcode.com/problems/rotate-list/discuss/348197/96-faster-Simple-python-solution-with-explanation
