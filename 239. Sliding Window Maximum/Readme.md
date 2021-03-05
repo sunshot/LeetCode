@@ -38,6 +38,10 @@ https://leetcode.com/problems/sliding-window-maximum/discuss/111560/Python-O(n)-
 
 同时，判断队首是否在当前滑动窗口内，不在就删除
 
+https://leetcode.com/problems/sliding-window-maximum/discuss/65884/Java-O(n)-solution-using-deque-with-explanation
+
+https://leetcode.com/problems/sliding-window-maximum/discuss/65885/This-is-a-typical-monotonic-queue-problem
+
 
 ## Test case
 
