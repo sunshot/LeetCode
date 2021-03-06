@@ -42,6 +42,12 @@ https://leetcode.com/problems/sliding-window-maximum/discuss/65884/Java-O(n)-sol
 
 https://leetcode.com/problems/sliding-window-maximum/discuss/65885/This-is-a-typical-monotonic-queue-problem
 
+Can be also used to solve:
+https://leetcode.com/problems/shortest-unsorted-continuous-subarray/
+https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/
+https://leetcode.com/problems/next-greater-element-i/
+https://leetcode.com/problems/largest-rectangle-in-histogram/
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 ## Test case
 
