@@ -18,8 +18,8 @@ class Solution:
         
         # Let's swap i-1 and smallest
         num[i-1], num[smallest] = num[smallest], num[i-1]
-        num[i:] = num[i:][::-1]
-        ans = int(''.join(num))
+        suffix = num[i:][::-1]
+        ans = int(''.join(num[:i] + suffix))
         return ans if ans < 1<<31 else -1
 
 if __name__== '__main__':
