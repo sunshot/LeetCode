@@ -52,3 +52,6 @@ time complexity is O(nlogk)
 技巧：
 
 heap 删除任意元素复杂度高，可在元素中存储 index，只有当堆顶元素需要删除时，才进行删除
+
+相似问题：https://leetcode.com/problems/find-median-from-data-stream/
+
