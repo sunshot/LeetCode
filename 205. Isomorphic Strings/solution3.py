@@ -4,3 +4,10 @@ class Solution:
             return False
         return len(set(zip(s, t))) == len(set(s)) == len(set(t))
         
+if __name__== '__main__':
+    solution = Solution()
+
+    s = "badc"
+    t = "baba"
+    result = solution.isIsomorphic(s, t)
+    print(result)
