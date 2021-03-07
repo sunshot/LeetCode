@@ -25,6 +25,8 @@ https://www.geeksforgeeks.org/find-next-greater-number-set-digits/
 https://leetcode.com/problems/next-greater-element-iii/discuss/983076/Python-O(m)-solution-explained
 
 
+类似的问题：
+https://leetcode.com/problems/next-permutation
 
 ## Test case
 
