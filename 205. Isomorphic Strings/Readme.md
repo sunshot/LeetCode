@@ -44,3 +44,39 @@ Output: false
 "badc"
 "baba"
 ```
+
+相同类似的题：
+
+## 290. Word Pattern
+
+https://leetcode.com/problems/word-pattern
+
+Given a pattern and a string s, find if s follows the same pattern.
+
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.
+
+```
+Input: pattern = "abba", s = "dog cat cat dog"
+Output: true
+```
+
+```python
+class Solution:
+    def wordPattern(self, pattern: str, s: str) -> bool:
+        if not pattern or not s:
+            return False
+        words = s.split()
+        if len(pattern) != len(words):
+            return False
+        p2s = {}
+        s2p = {}
+        for i in range(len(pattern)):
+            if pattern[i] in p2s and p2s[pattern[i]] != words[i]:
+                return False
+            if words[i] in s2p and s2p[words[i]] != pattern[i]:
+                return False
+            p2s[pattern[i]] = words[i]
+            s2p[words[i]] = pattern[i]
+        return True
+        
+```
