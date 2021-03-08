@@ -1,6 +1,4 @@
-## Trapping Rain Water
-
-https://leetcode.com/problems/trapping-rain-water/
+# [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 
 Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
 
@@ -19,3 +17,7 @@ https://leetcode-cn.com/problems/volume-of-histogram-lcci/solution/shuang-zhi-zh
 很多方法可解，对于List中某个位置i，如果能知道i左边最高的 leftmax，和右边最高的 rightmax，设 minH = min(leftmax, rightmax) 如果 minH 大于 height[i] 则i处能装的雨水是： minH - height[i]
 
 可以提前计算出 leftmax 和 rightmax，总体时间复杂度 O(n)
+
+参考解答还给出了利用栈来解决，参考：
+
+https://leetcode.com/problems/trapping-rain-water/solution/
