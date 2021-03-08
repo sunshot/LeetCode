@@ -31,3 +31,5 @@ If s[i] == s[j], dp[i][j] = 2 + dp[i+1][j - 1]
 Else, dp[i][j] = max(dp[i+1][j], dp[i][j-1])
 
 实际程序计算 dp 时，需要尽可能让i j之间差值越小开始计算
+
+如果题目不是仅仅求 longest palindromic subsequence 的长度，而是要求所有符合条件的 longest palindromic subsequence，如何扩展？
