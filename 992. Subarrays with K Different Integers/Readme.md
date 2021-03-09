@@ -119,6 +119,7 @@ class Solution(object):
         return res
 ```
 
+s[l..r-1] 都符合要求，固定 r，挪动 l，将 l 挪动到 r-1，都符合 <= k 个不同的字符的要求，因此是 r-l 个字符串 
 
 
 https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/523136/JavaC%2B%2BPython-Sliding-Window
