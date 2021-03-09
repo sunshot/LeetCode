@@ -28,13 +28,17 @@ solution2，采用两个滑动窗口，[left1..right] 是 = k 的子数组（对
 
 参考解答似乎效率一般
 
-从 submission 里面随机找的解答 solution3 和 solution4
+从 submission 里面随机找的解答 solution3 和 solution4，讨论区也有解释：
+
+https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/237419/Python-Clean-Sliding-Window-%2B-2-Pointers-O(n)-99.06
 
 start is the starting of the window, start_k is the starting point of k distinct integers,in the window start_k-start number are repeated, so 1+start_k - start number of subarrays are possible
 
 [start_k..right] 正好有 k 个不同的元素，并且 A[start_k] 只出现 1 次，则 start_k - start + 1 都是相对于 right 符合条件的子数组
 
 right 后面的元素，如果还满足正好有 k 个不同的元素，则继续寻找 start_k 让 A[start_k] 只出现 1 次；否则，删除 A[start_k]，start_k+1， start 挪到最新的 start_k 的位置 （因为之前的 start..start_k 和最新的 right 都不满足正好有 k 个不同的元素）
+
+start_k is actually the 3rd pointer between the start(left) and i(right). so when the freq matches K, the 3rd pointer will start to move from left to right, and see how many times start pointer can move by still keeping k freq. and the 3rd pointer moving times will be start_k - start + 1
 
 讨论区参考解答：
 https://leetcode.com/problems/subarrays-with-k-different-integers/discuss/235002/One-code-template-to-solve-all-of-these-problems!
