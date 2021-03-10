@@ -21,3 +21,7 @@ The substring with start index = 6 is "bac", which is an anagram of "abc".
 
 与 [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/) 有点类似，可以采用滑动窗口和dicts(Counter)进行比较的方式来判断
 
+Similar problems:
+https://github.com/sunshot/LeetCode/tree/main/242.%20Valid%20Anagram
+https://github.com/sunshot/LeetCode/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String
+https://github.com/sunshot/LeetCode/tree/main/567.%20Permutation%20in%20String

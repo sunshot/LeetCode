@@ -32,3 +32,8 @@ class Solution:
 collections.Counter is subclass of dict
 
 This method seems running fastest.
+
+Similar problems:
+https://github.com/sunshot/LeetCode/tree/main/242.%20Valid%20Anagram
+https://github.com/sunshot/LeetCode/tree/main/438.%20Find%20All%20Anagrams%20in%20a%20String
+https://github.com/sunshot/LeetCode/tree/main/567.%20Permutation%20in%20String
