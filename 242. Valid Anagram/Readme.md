@@ -15,3 +15,20 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 ## Solution
 
 This problem is straightforward, we can sort s and t and compare. Or we can use hash.
+
+Note, using python, we can compare two dicts directly, see https://stackoverflow.com/questions/1911273/is-there-a-better-way-to-compare-dictionary-values/5635309#5635309
+
+Then we can simply:
+
+```python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        s_hash = collections.Counter(s)
+        t_hash = collections.Counter(t)
+        
+        return s_hash == t_hash
+```
+
+collections.Counter is subclass of dict
+
+This method seems running fastest.
