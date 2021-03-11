@@ -13,7 +13,7 @@ Similar to: [15. 3Sum](https://leetcode.com/problems/3sum/)
 
 See [github](https://github.com/sunshot/LeetCode/tree/main/15.%203Sum)
 
-与 3Sum 类似，但要注意优化，提起退出条件，优化后可以达到:
+与 3Sum 类似，但要注意优化，提前退出条件，优化后可以达到:
 
 Runtime: 80 ms, faster than 97.85% of Python3 online submissions for 4Sum.
 
