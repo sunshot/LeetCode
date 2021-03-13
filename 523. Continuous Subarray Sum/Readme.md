@@ -26,6 +26,11 @@ This problem is similar to [560. Subarray Sum Equals K](https://leetcode.com/pro
 
 惨痛教训：submit 7 次才成功被接受：Runtime: 208 ms, faster than 83.37% of Python3 online submissions for Continuous Subarray Sum.
 
+讨论区解答：
+https://leetcode.com/problems/continuous-subarray-sum/discuss/99503/Need-to-pay-attention-to-a-lot-of-corner-cases...
+
+hash 中可以存储 currSum % k 的结果，只有前面的累积和也有相同的 mod 的结果，才表示有连续的子数组，和是k的n倍，为了满足子数组至少2个元素的要求，hash的值可以是mode第一次出现的index，另外 k=0 需要单独考虑，即需要判断 nums 是否有连续的两个 0
+
 ## Test case
 
 ```
