@@ -30,3 +30,15 @@ Explanation: L = 50, V = 5, III = 3.
 ```
 
 See [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+
+See https://leetcode.com/problems/integer-to-roman/discuss/6274/Simple-Solution
+
+```java
+public static String intToRoman(int num) {
+    String M[] = {"", "M", "MM", "MMM"};
+    String C[] = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+    String X[] = {"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+    String I[] = {"", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
+    return M[num/1000] + C[(num%1000)/100] + X[(num%100)/10] + I[num%10];
+}
+```
