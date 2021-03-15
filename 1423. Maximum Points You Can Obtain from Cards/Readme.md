@@ -26,3 +26,5 @@ Similar to:
 
 Solution1: Runtime: 412 ms, faster than 76.52% of Python3 online submissions for Maximum Points You Can Obtain from Cards.
 
+https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/discuss/597763/Python3-Easy-Sliding-Window-O(n)%3A-Find-minimum-subarray
+
