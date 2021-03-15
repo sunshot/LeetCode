@@ -23,3 +23,5 @@ Solution1: Based on hint 1. Runtime: 20 ms, faster than 99.22% of Python3 online
 
 Follow up of [198. House Robber](https://leetcode.com/problems/house-robber/) see in [github](https://github.com/sunshot/LeetCode/tree/main/198.%20House%20Robber)
 
+
+https://leetcode.com/problems/house-robber-ii/discuss/299071/Python-O(n)-time-O(1)-space
