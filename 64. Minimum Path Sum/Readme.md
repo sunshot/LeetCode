@@ -19,3 +19,4 @@ Constraints:
 
 Solution1: Dynamic Programming. row 0 and col 0 should be computed directly from (0, 0). for any (i, j), dp[i][j] = min(d[i-1][j], d[i][j-1]) + grid[i][j]
 
+See discussion: https://leetcode.com/problems/minimum-path-sum/discuss/23471/DP-with-O(N*N)-space-complexity
