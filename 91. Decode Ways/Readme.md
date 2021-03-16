@@ -63,3 +63,16 @@ Similar questions:
 - [91. Decode Ways](https://leetcode.com/problems/decode-ways)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)
+
+Test case
+
+```
+"12"
+"226"
+"0"
+"06"
+"11106"
+"111111111111111111111111111111111111111111111"
+"35678910"
+"3567892011106"
+```
