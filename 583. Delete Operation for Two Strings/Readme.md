@@ -40,3 +40,7 @@ Solution1: Dynamic Programming. dp[i+1][j+1] indicates the minimum number of ste
 ```
 
 Solution2: We can call [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/), and then can know the minimum number of steps.
+
+
+Reference solution also uses these methods. https://leetcode.com/problems/delete-operation-for-two-strings/solution/
+
