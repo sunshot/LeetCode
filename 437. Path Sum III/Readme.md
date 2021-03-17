@@ -59,3 +59,12 @@ class Solution:
         dfs(root, 0)
         return self.ans
 ```
+
+
+PrefixSum version:
+https://www.youtube.com/watch?v=ofMqFAFVcKY
+
+用一个hash map保存root到当前节点的和，称为 prefixsum，如果 prefixsum == targetSum，则结果加1；判断 prefixsum - targetSum 在不在 hash map 中，在，则把结果加上hash的值 （含义是把这个hansh值对应的节点都去掉）
+
+https://leetcode.com/problems/path-sum-iii/discuss/91878/17-ms-O(n)-java-Prefix-sum-method
+
