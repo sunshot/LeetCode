@@ -40,9 +40,9 @@ def convert2TreeNode(nums: List[int]) -> TreeNode:
     while next_child < len(nodes):
         for i in range(curr, curr + 2 ** level):
             if nodes[i]:
-                nodes[i].left = nodes[next_child]
-                nodes[i].right = nodes[next_child + 1]
-            next_child += 2
+                nodes[i].left = nodes[next_child] if next_child < len(nodes) else None
+                nodes[i].right = nodes[next_child + 1] if next_child + 1 < len(nodes) else None
+                next_child += 2
         curr = i + 1
         level += 1
     return nodes[0]
