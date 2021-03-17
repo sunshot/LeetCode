@@ -26,7 +26,7 @@ Hints:
 - Group the number by thousands (3 digits). You can write a helper function that takes a number less than 1000 and convert just that chunk to words.
 - There are many edge cases. What are some good test cases? Does your code work with input such as 0? Or 1000010? (middle chunk is zero and should not be printed out)
 
-Solution1: Direct solution following the hints. But pay attention to a lot of edge cases.
+Solution1: Direct solution following the hints. But pay attention to a lot of edge cases. Runtime: 28 ms, faster than 92.38% of Python3 online submissions for Integer to English Words.
 
 Test cases:
 
