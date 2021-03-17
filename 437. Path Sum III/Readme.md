@@ -35,3 +35,27 @@ Similar Problems:
 - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
 
 思路：比 112 和 113 明显更难，对每一个遍历到的节点，都需要判断是否有路径存在，并且有多少条？DFS 加上 prefix sum 的思路，对每一个节点，记录 root 到这个节点的 prefix sum 及这个 prefix sum 的个数，然后判断以此节点结束有多少条路径，通过 curr prefix sum - targetSum 是否在 hash 中进行判断
+
+需要注意的是，递归函数：
+
+``def dfs(node, currSum):``
+
+currSum 是一个标量，因此，函数里面对它的修改，调用它的父函数是看不到的，因此不需要恢复
+
+```python
+class Solution:
+    def pathSum(self, root: TreeNode, targetSum: int) -> int:
+        self.ans = 0
+        self.prefixsum = collections.defaultdict(int)
+        self.prefixsum[0] = 1
+        def dfs(node, currSum):
+            if node:
+                currSum += node.val
+                self.ans += self.prefixsum[currSum - targetSum]
+                self.prefixsum[currSum] += 1
+                dfs(node.left, currSum)
+                dfs(node.right, currSum)
+                self.prefixsum[currSum] -= 1
+        dfs(root, 0)
+        return self.ans
+```
