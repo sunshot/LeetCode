@@ -21,6 +21,7 @@ Similar Problems:
 - [687. Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
 - [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [250. Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/) Need subscribe
+- [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 这道题比 437 难，需要弄清楚递归的条件。 See https://leetcode.com/problems/longest-univalue-path/solution/
 
@@ -33,3 +34,11 @@ Then, for each node, we want to know what is the longest possible arrow extendin
 Let arrow_length(node) be the length of the longest arrow that extends from the node. That will be 1 + arrow_length(node.left) if node.left exists and has the same value as node. Similarly for the node.right case.
 
 某个节点的 path，如果与它的父节点相连，则只能从左或者右选取一条 path
+
+
+https://leetcode.com/problems/longest-univalue-path/discuss/108142/Python-Simple-to-Understand
+
+递归函数返回的是该节点被上一级节点使用时，最长的路径（边数），计算最终可能的结果时，左右子树都是可以使用的
+
+https://www.youtube.com/watch?v=yX1hVhcHcH8
+

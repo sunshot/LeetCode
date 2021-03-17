@@ -27,3 +27,5 @@ Constraints:
 
 细节：考虑链表是偶数个节点和奇数个节点，即注意链表如果有两个中心，则第二个中心为后一半链表；如果只有一个中心，则属于第一半链表
 
+https://blog.csdn.net/changqing1234/article/details/102947751
+
