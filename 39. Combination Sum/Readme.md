@@ -37,7 +37,7 @@ Constraints:
 - 1 <= target <= 500
 
 
-Solution1: Backtracking. path 记录当前遍历过的candidates，设定退出条件 sum(path) == target，或者找不到结果：sum(path) > target, len(path) > 150。回溯时为了去重，每次只能从自己的index开始的位置还是添加元素。Runtime: 100 ms, faster than 38.87% of Python3 online submissions for Combination Sum. Memory Usage: 14.5 MB, less than 25.86% of Python3 online submissions for Combination Sum. 效率有待提高。
+Solution1: Backtracking. path 记录当前遍历过的candidates，设定退出条件 sum(path) == target，或者找不到结果：sum(path) > target, len(path) > 150。回溯时为了去重，每次只能从自己的index开始的位置开始添加元素。Runtime: 100 ms, faster than 38.87% of Python3 online submissions for Combination Sum. Memory Usage: 14.5 MB, less than 25.86% of Python3 online submissions for Combination Sum. 效率有待提高。
 
 Solution2: 优化不需要每次计算 path 的和，Runtime: 88 ms, faster than 53.22% of Python3 online submissions for Combination Sum.
 
