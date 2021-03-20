@@ -21,4 +21,6 @@ Constraints:
 
 - 1 <= n <= 9
 
-Solution1: see [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)
+Solution1: see [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/) Runtime: 72 ms, faster than 64.80% of Python3 online submissions for N-Queens.
+
+Solution2: Runtime: 56 ms, faster than 86.05% of Python3 online submissions for N-Queens.
