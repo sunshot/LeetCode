@@ -34,4 +34,4 @@ Constraints:
 Solution1: 参考 [39. Combination Sum](https://leetcode.com/problems/combination-sum/) 进行修改，让每个元素只出现一次，先把 candidates 进行排序，然后借鉴 [491. Increasing Subsequences](https://leetcode.com/problems/increasing-subsequences/) 思路进行调整，每次新增加第x个元素时，第一次可以立即增加，后序再次增加第x个元素的时候，需要判断 nums[i] == nums[i-1]，提交成功，不过还需要优化：Runtime: 96 ms, faster than 38.64% of Python3 online submissions for Combination Sum II.
 
 
-
+Solution2: https://leetcode.com/problems/combination-sum-ii/solution/ 使用 Counter 来记录使用的candidate的数量，然后用于保证只出现一次。Runtime: 60 ms, faster than 69.92% of Python3 online submissions for Combination Sum II.
