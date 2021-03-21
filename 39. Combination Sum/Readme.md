@@ -48,3 +48,9 @@ Solution3: 再次优化，不需要保存 path，每次调用的时候生成一�
 
 https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
 
+Similar Problems:
+
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+- [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+

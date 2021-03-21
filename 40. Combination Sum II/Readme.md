@@ -35,3 +35,11 @@ Solution1: 参考 [39. Combination Sum](https://leetcode.com/problems/combinatio
 
 
 Solution2: https://leetcode.com/problems/combination-sum-ii/solution/ 使用 Counter 来记录使用的candidate的数量，然后用于保证只出现一次。Runtime: 60 ms, faster than 69.92% of Python3 online submissions for Combination Sum II.
+
+
+Similar Problems:
+
+- [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
+- [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+- [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)
+
