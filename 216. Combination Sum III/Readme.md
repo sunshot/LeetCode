@@ -44,6 +44,11 @@ Constraints:
 
 Solution1: Backtracking. 选择：[1..9]，成功条件，和等于 n 并且出现了 k 个数字. Runtime: 32 ms, faster than 69.61% of Python3 online submissions for Combination Sum III.
 
+https://leetcode.com/problems/combination-sum-iii/discuss/60614/Simple-and-clean-Java-code-backtracking.
+
+https://leetcode.com/problems/combination-sum-iii/discuss/60805/Easy-to-understand-Python-solution-(backtracking).
+
+
 Similar Problems:
 
 - [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
