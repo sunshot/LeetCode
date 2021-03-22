@@ -22,3 +22,24 @@ Solution1: Backtracking. See [17. Letter Combinations of a Phone Number](https:/
 
 https://leetcode.com/problems/subsets/solution/
 
+
+Solution2: Cascading. Let's start from empty subset in output list. At each step one takes new integer into consideration and generates new subsets from the existing ones. Runtime: 28 ms, faster than 94.36% of Python3 online submissions for Subsets.
+
+Solution3: Lexicographic (Binary Sorted) Subsets. The idea is that we map each subset to a bitmask of length n, where 1 on the ith position in bitmask means the presence of nums[i] in the subset, and 0 means its absence. For instance, the bitmask 0..00 (all zeros) corresponds to an empty subset, and the bitmask 1..11 (all ones) corresponds to the entire input array nums. Runtime: 32 ms, faster than 82.45% of Python3 online submissions for Subsets.
+
+It might seem simple at first glance to generate binary numbers, but the real problem here is how to deal with zero left padding, because one has to generate bitmasks of fixed length, i.e. 001 and not just 1. For that one could use standard bit manipulation trick:
+
+```python
+nth_bit = 1 << n
+for i in range(2**n):
+    # generate bitmask, from 0..00 to 1..11
+    bitmask = bin(i | nth_bit)[3:]
+```
+
+or keep it simple stupid and shift iteration limits:
+
+```python
+for i in range(2**n, 2**(n + 1)):
+    # generate bitmask, from 0..00 to 1..11
+    bitmask = bin(i)[3:]
+```
