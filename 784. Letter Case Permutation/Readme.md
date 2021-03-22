@@ -29,3 +29,7 @@ Solution1: Bitmask. 借鉴 [78. Subsets](https://leetcode.com/problems/subsets/)
 Solution2: Backtracking. Runtime: 872 ms, faster than 7.28% of Python3 online submissions for Letter Case Permutation.
 
 Solution3: Backtracking. Improve Solution2. Runtime: 52 ms, faster than 88.03% of Python3 online submissions for Letter Case Permutation. Solution2 中 Backtrack 没有必要利用循环，直接判断当前 index 即可
+
+
+https://leetcode.com/problems/letter-case-permutation/discuss/115509/Python-simple-solution-(7-lines)
+
