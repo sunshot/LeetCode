@@ -32,3 +32,8 @@ https://leetcode.com/problems/binary-tree-right-side-view/discuss/56012/My-simpl
 https://leetcode.com/problems/binary-tree-right-side-view/discuss/56064/5-9-Lines-Python-48%2B-ms
 
 Runtime: 32 ms, faster than 70.18% of Python3 online submissions for Binary Tree Right Side View.
+
+Similar Problems:
+
+- [116. Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+- [545. Boundary of Binary Tree](https://leetcode.com/problems/boundary-of-binary-tree) Need to Subscribe. 
