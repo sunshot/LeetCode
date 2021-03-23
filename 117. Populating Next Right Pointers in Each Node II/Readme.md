@@ -38,3 +38,11 @@ Solution2: Similar to 116's Solution2, Simply do it level by level, using the ne
 
 Runtime: 44 ms, faster than 90.64% of Python3 online submissions for Populating Next Right Pointers in Each Node II.
 
+Solution3: Improved based on Solution2. And also see:
+
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/discuss/37811/Simple-solution-using-constant-space
+
+https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/discuss/37828/O(1)-space-O(n)-complexity-Iterative-Solution
+
+Use a dummy node to be the dummy head of Linked List of each level, and use a currChild node to link these nodes in the same level. Very clean code.
+
