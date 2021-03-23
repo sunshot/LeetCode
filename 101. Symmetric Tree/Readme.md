@@ -23,11 +23,16 @@ Solution1: 笨办法，采用层序遍历，对这一层的 value 进行判断�
 Solution2: see https://leetcode.com/problems/symmetric-tree/solution/.  Each two consecutive nodes in the queue should be equal, and their subtrees a mirror of each other. Initially, the queue contains root and root. Then the algorithm works similarly to BFS, with some key differences. Each time, two nodes are extracted and their values compared. Then, the right and left children of the two nodes are inserted in the queue in opposite order. The algorithm is done when either the queue is empty, or we detect that the tree is not symmetric (i.e. we pull out two consecutive nodes from the queue that are unequal). Runtime: 32 ms, faster than 82.46% of Python3 online submissions for Symmetric Tree.
 
 Solution3: 递归
+
 Two trees are a mirror reflection of each other if:
 
 - Their two roots have the same value.
 - The right subtree of each tree is a mirror reflection of the left subtree of the other tree.
 Runtime: 36 ms, faster than 59.80% of Python3 online submissions for Symmetric Tree.
+
+Solution4: Improve based on Solution3. We do not need to do ``isMirror(root, root)``, after we make sure root is not null, we can just do ``isMirror(root.left, root.right)``.  Runtime: 24 ms, faster than 98.97% of Python3 online submissions for Symmetric Tree. Great improvement.
+
+Solution5: Improve based on Solution1, just add None instread of dummy TreeNode. 1204 ms	65.3 MB
 
 Similar Problems:
 
