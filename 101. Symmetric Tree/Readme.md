@@ -28,3 +28,9 @@ Two trees are a mirror reflection of each other if:
 - Their two roots have the same value.
 - The right subtree of each tree is a mirror reflection of the left subtree of the other tree.
 Runtime: 36 ms, faster than 59.80% of Python3 online submissions for Symmetric Tree.
+
+Similar Problems:
+
+- [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+- [721. Accounts Merge](https://leetcode.com/problems/accounts-merge/)
+- [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)
