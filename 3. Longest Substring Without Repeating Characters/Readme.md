@@ -12,7 +12,7 @@ Explanation: The answer is "abc", with the length of 3.
 
 首先要弄清楚题目的意思，找到最长的 substring，这个 substring 里面没有重复的字符。 Substring 的意思就是连续的字字符串
 
-思路：用一个 hash 表记录每个字符出现的位置，从 start = 0 开始寻找 substring，条件是不能有重复的字符串，通过 hash 表来判断，但发现位置 i 的字符已经出现在 hash 表了，则表示 substring 已经结束了，长度为 i-start，下一个符合条件的 substring 需要从位置i的字符上一次出现的位置 hash[s[i]]+1 开始。
+思路：用一个 hash 表记录每个字符出现的位置，从 start = 0 开始寻找 substring，条件是不能有重复的字符串，通过 hash 表来判断，当发现位置 i 的字符已经出现在 hash 表了，则表示 substring 已经结束了，长度为 i-start，下一个符合条件的 substring 需要从位置i的字符上一次出现的位置 hash[s[i]]+1 开始。
 
 此处的难点是，如何处理 hash 表？最直接的方法是，位置 hash[s[i]] 之前的字符都需要从 hash 表中删除，这样复杂度高，其实不需要删除这些字符，只需要增加判断条件：位置 i 的字符出现在 hash 表，并且 hash[s[i]] >= start，则表明位置 i 的字符在当前符合条件的 substring 中重复了
 
