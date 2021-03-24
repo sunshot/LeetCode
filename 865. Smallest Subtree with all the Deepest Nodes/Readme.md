@@ -65,3 +65,7 @@ Afterwards, we will use that annotation to help us find the answer:
 关键思想：如果某个节点的左右孩子都是最深的节点，则此节点为所求答案，然后递归的进行。实现的时候，可以用一个递归函数实现： ``def dfs(node: TreeNode) -> Tuple[int, TreeNode]:`` 返回 node 子树的高度，以及最深节点的最小祖先节点，然后递归的进行即可
 
 Runtime: 36 ms, faster than 64.03% of Python3 online submissions for Smallest Subtree with all the Deepest Nodes.
+
+
+https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/discuss/146808/C%2B%2BJavaPython-One-Pass
+
