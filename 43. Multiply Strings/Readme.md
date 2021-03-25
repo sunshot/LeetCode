@@ -19,3 +19,12 @@ Constraints:
 - Both num1 and num2 do not contain any leading zero, except the number 0 itself.
 
 Solution: 
+
+1. compute products from each pair of digits from num1 and num2. 
+2. carry each element over. 
+3. output the solution.
+4. The product of two numbers cannot exceed the sum of the two lengths. (e.g. 99 * 99 cannot be five digit)
+
+https://leetcode.com/problems/multiply-strings/discuss/17608/AC-solution-in-Java-with-explanation
+
+https://leetcode.com/problems/multiply-strings/discuss/17605/Easiest-JAVA-Solution-with-Graph-Explanation
