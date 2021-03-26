@@ -32,3 +32,4 @@ Runtime: 48 ms, faster than 73.73% of Python3 online submissions for Search Inse
 Solution2: https://leetcode.com/problems/search-insert-position/discuss/15081/Python-one-liner-48ms
 
 
+Solution3: Binary Search
