@@ -35,3 +35,5 @@ Runtime: 32 ms, faster than 50.16% of Python3 online submissions for First Bad V
 https://leetcode.com/problems/first-bad-version/solution/
 
 If you are setting mid = (left + right) /2,  you have to be very careful. Unless you are using a language that does not overflow such as Python, (left + right) /2 could overflow. One way to fix this is to use left + (right - left)/2 instead.
+
+Solution2. Binary Search but do no use recursion. Runtime: 24 ms, faster than 94.29% of Python3 online submissions for First Bad Version.
