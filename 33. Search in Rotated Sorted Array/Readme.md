@@ -33,3 +33,5 @@ Solution1: To achieve O(log n), consider binary search, need to carefully detect
 
 Runtime: 44 ms, faster than 38.68% of Python3 online submissions for Search in Rotated Sorted Array.
 
+
+Solution2: see https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/14425/Concise-O(log-N)-Binary-search-solution  first find the min element, then use pure binary search. Runtime: 40 ms, faster than 70.31% of Python3 online submissions for Search in Rotated Sorted Array.
