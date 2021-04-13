@@ -26,3 +26,8 @@ Follow up: This problem is the same as Search in Rotated Sorted Array, where num
 Solution1: 区别是特殊情况难以找到最小的元素，如 mid 跟 right 的元素值相同的情况下，其余同 Search in Rotated Sorted Array
 
 Runtime: 56 ms, faster than 38.26% of Python3 online submissions for Search in Rotated Sorted Array II.
+
+
+Solution2: Borrow [solution1](https://github.com/sunshot/LeetCode/blob/main/33.%20Search%20in%20Rotated%20Sorted%20Array/solution1.py) but also consider duplicates. See https://leetcode.com/problems/search-in-rotated-sorted-array-ii/solution/760943
+
+Runtime: 48 ms, faster than 90.46% of Python3 online submissions for Search in Rotated Sorted Array II.
